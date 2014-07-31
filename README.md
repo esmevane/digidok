@@ -17,6 +17,13 @@ An example of an automatic [terraforming][terraform] of a [Digital Ocean][do] dr
 * Run `git push [remote name] master`
 * Access the miniature app on the returned url!
 
+## Running it locally
+
+* Install [fig][fig], if you use a Mac this guide assumes you will use `docker-osx shell`
+* Run `docker-osx shell`
+* Run `fig up`
+* Visit `http://localdocker:5000`
+
 [terraform]: http://www.terraform.io/
 [do]: https://www.digitalocean.com/
 [dokku]: https://github.com/progrium/dokku
