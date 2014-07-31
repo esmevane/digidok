@@ -1,0 +1,7 @@
+web:
+  build: .
+  command: bundle exec rackup -p 5000
+  environment:
+    NAME_OF_GUY: Billy
+  ports:
+    - "5000:5000"
